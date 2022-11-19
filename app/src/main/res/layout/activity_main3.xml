@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/lutfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডা:মোঃ লুৎফর রহমান" />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এম.বি.বি এস, পিজিটি (শিশু রোগ) এম.সি.পি.এস (গাইনী), ডিজিও " />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="সিনিয়য় কনসালটেন্ট,(গাইনী এবং অবস) "/>
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="জেলা সদর হাসপাতাল ,শেরপুর "/>
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বারঃ রইছ মেডিকেল হল এন্ড নাকিব ডায়াগনস্টিক সেন্টার" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/maya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ মায়া হোড়" />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এম.বি.বি.এস, বি.সি.এস(স্বাস্থ্য), এম.সি.পি.এস (অবস্ ও গাইনী) এফ.সি.পি.এস (অবস্ ও গাইনী) গাইনী " />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="কনসালটেন্ট,(গাইনী) "/>
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বারঃ নাজাত ডায়াগনস্টিক সেন্টার" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/nargis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ কামরুন্নাহার (নার্গিস) " />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এমবিবিএস, এমএস(গাইনী এন্ড অবস),এমসিপিএস(গাইনীএন্ড অবস)" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text=" সহযোগী অধ্যাপক (গাইনী এন্ড অবস)  "/>
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ময়মনসিংহ মেডিকেল কলেজ হাসপাতাল "/>
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বারঃশেরপুর ডক্টরস হসপিটাল" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/lopa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ হাসিনাতুল ফৈরদোস লোপা" />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এম.বি.বি.এস, বিসিএস(স্বাস্থ্য) এফসিপিএস(গাইনী এন্ড অবস) এমসিপিএস" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text=" কনসালটেন্ট,(গাইনী এবং অবস) "/>
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="জেলা সদর হাসপাতাল ,শেরপুর "/>
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="শেরপুর ইউনাইটেড হাসপাতাল(01907088200)" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/nibedita"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ নিবেদিতা রায়" />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এম.বি.বি.এস, বিসিএস(স্বাস্থ্য) এফসিপিএস(গাইনী এন্ড অবস) এমসিপিএস" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text=" কনসালটেন্ট,(গাইনী এবং অবস) "/>
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ময়মনসিংহ মেডিকেল কলেজ হাসপাতাল"/>
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বারঃইউনিক প্যাথলজী,বটতলা" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/keya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ নাহিদ কামাল [কেয়া]" />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এম.বি.বি.এস,বি.সি.এস(স্বাস্থ্য) সি.এম.ইউ(আল্ট্রা),পি.জি.টি " />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="মেডিকেল অফিসার "/>
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ময়মনসিংহ মেডিকেল কলেজ হাসপাতাল  "/>
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বার এশিয়া ডায়াগনোস্টিক সেন্টার" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="185dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/morsheda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ মোরশেদা মোসলেম" />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এম.বি.বি.এস, বি.সি.এস(স্বাস্থ্য) এফ.সি.পি.এস(গাইনী এন্ড অবস্) ডিজিও" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="কনসালটেন্ট,(গাইনী এবং অবস) "/>
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="শেখ হাসিনা মেডিকেল কলেজ হাসপাতাল, জামালপুর । "/>
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বারঃশেরপুর মেডিনোভা ডায়াগনোস্টিক সেন্টার" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/naila"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ মোছাম্মৎ নায়লা হোসেন" />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এম.বি.বি.এস ,বি.সি.এস(স্বাস্থ্য)ডি.জি.ও, এফ.সি.পি.এস" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="জুনিয়র কনসালটেন্ট,(গাইনী এবং অবস) "/>
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="জেলা সদর হাসপাতাল ,শেরপুর "/>
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বারঃ উত্তরা স্পেশালাইজড হাসপাতাল" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/mousumi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ মুসলিমা আক্তার মৌসুমি" />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এম.বি.বি.এস পি.জি.টি (গাইনী এন্ড অবস্)  সিসিডি (বারডেম) সি.এম.ইউ (আল্ট্রা), ডি.এম.ইউ (আল্ট্রা) " />
+
+
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বারঃ আলকেমি ডায়াগনস্টিক সেন্টার" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/sabrina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ সাবরিনা বরকত" />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এমবিবিএস (ঢাকা) এফসিপিএস (গাইনী এন্ড অবস্)" />
+
+
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="প্রাক্তন সহকারী অধ্যাপক" />
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="মুন্নু মেডিকেল কলেজ ও হাসপাতাল, মানিকগঞ্জ ।" />
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="আবেদীন হাসপাতাল" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/koly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডা. ফারজানা কলি" />
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#229954"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="এম.বি.বি.এস, বি.সি.এস(স্বাস্থ্য) এম.সি.জি.পি(গাইনী অবস্) " />
+
+
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="মেডিকেল অফিসার" />
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="জেলা হাসপাতাল, শেরপুর।" />
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বার : আল-মদিনা জেনারেল (প্রাঃ) হাসপাতাল" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/happy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডা.জান্নাতুল ফেরদৌস হ্যাপি" />
+
+
+
+
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বার : কবির প্যাথলজি থানামোড়" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/noori"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ নুরজাহান বেগম নূরী" />
+
+
+
+
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বারঃ মনির ডায়াগনস্টিক সেন্টার" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="#F8F9F9"
+                android:layout_weight="5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/tuhin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="ডাঃ তাশরিফা বিনতে ফারুক তুহিন" />
+
+
+
+
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#FF7F50"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="চেম্বার:স্বদেশ ডিজিটাল প্যাথলজিক্যাল ল্যাব।
+
+" />
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/call" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
